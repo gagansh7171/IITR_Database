@@ -3,7 +3,7 @@ A winter project for maintaining all the course related materials for iitr stude
 
 A few guidelines on how to use the project -
 
-1. The server connection configuration is mentioned in db.php . Change accordingly.
+1. The server connection configuration is mentioned in db.php .
 
 2. You would need to create few tables with following configuration in mysql. Following are tablenames and their configuration -
 
