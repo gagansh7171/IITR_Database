@@ -5,7 +5,9 @@ A few guidelines on how to use the project -
 
 1. The server connection configuration is mentioned in db.php .
 
-2. You would need to create few tables with following configuration in mysql. Following are tablenames and their configuration -
+2. If you want to have a look on how this website will work once compiled then have a look on video link in extras/how_it_works.
+
+3. You would need to create few tables with following configuration in mysql. Following are tablenames and their configuration -
 
 doc
 
@@ -83,7 +85,7 @@ users
 
   Here default_profile_photo.jpeg is a file in the repository
   
-3. The project uses mail() of php. To confiure mail() in your server follow these instructions-
+4. The project uses mail() of php. To confiure mail() in your server follow these instructions-
 
 Gmail uses https:// (it's hyper text secure) so first let us install ca-certificates .
 In the terminal type the following - (linux)
@@ -174,7 +176,6 @@ go to terminal and type
 
 And now you can use mail() in your php script
 
-4. Currently the project supports all subjects of all years of only 3 departments(IIT ROORKEE). Others can be added using extras/add_subjects.php . 
+5. Currently the project supports all subjects of all years of only 3 departments(IIT ROORKEE). Others can be added using extras/add_subjects.php . 
    For using add_subjects.php you have to use same database which we are using for main website.
 
-5. If you want to have a look on how this website will work once compiled then have a look on video link in extras/how_it_works
