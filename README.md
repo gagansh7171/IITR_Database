@@ -5,7 +5,7 @@ A few guidelines on how to use the project -
 
 1. The server connection configuration is mentioned in db.php .
 
-2. If you want to have a look on how this website will work once compiled then have a look on video link in extras/how_it_works.
+2. If you want to have a look on how this website will work once compiled then have a look on video link in extras/how_it_works. The website has been hosted at 000webhost. https://iitr-database.000webhostapp.com/index.html .
 
 3. You would need to create few tables with following configuration in mysql. Following are tablenames and their configuration -
 
