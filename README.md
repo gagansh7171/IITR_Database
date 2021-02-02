@@ -81,7 +81,7 @@ users
 	| semester      | varchar(2)   | YES  |     | NULL                        |                |
 	+---------------+--------------+------+-----+-----------------------------+----------------+
 
-	create table users(id int not null auto_increment, fname varchar(50) not null, lname varchar(50) not null, email varchar(50) not null, password varchar(100) not null, enroll varchar(10), hash varchar(50) not null, active tinyint not null set default 0, profile_photo varchar(500) set default 'default_profile_photo.jpeg', branch varchar(55), year varchar(2), semester varchar(2) );
+	create table users(`id` int not null auto_increment, `fname` varchar(50) not null,`lname` varchar(50) not null, `email` varchar(50) not null,`password` varchar(100) not null, `enroll` varchar(10), `hash` varchar(50) not null, `active` tinyint not null default '0', `profile_photo` varchar(500) default 'default_profile_photo.jpeg', `branch` varchar(55), `year` varchar(2), `semester` varchar(2), PRIMARY KEY (`id`) );
 
   Here default_profile_photo.jpeg is a file in the repository
   
